@@ -10,10 +10,11 @@
  <section class="search" id="wangyi-search">
         <div class="middle" id="tijiao">
 			<select id="my-menu">
+				<option value="qq" selected>搜你妹</option>
 				<option value="qq">QQ 音乐</option>
 				<option value="baidu">百度音乐</option>
 				<option value="xiami">虾米音乐</option>
-				<option value="wangyi" selected>网易云音乐</option>
+				<option value="wangyi">网易云音乐</option>
 				<option value="kugou">酷狗音乐</option>
 				<option value="kuwo">酷我音乐</option>
 			</select>
@@ -38,6 +39,8 @@
             		window.open("http://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=" + s ,"_self");
             	}else if (getvalue == 'kuwo') {
             		window.open("http://sou.kuwo.cn/ws/NSearch?type=all&catalog=yueku20177&key=" + s ,"_self");
+            	}else if (getvalue == 'sounm') {
+            		window.open("https://music.sounm.com/?name=" + s +"&type=netease");
             	}
     
             }
